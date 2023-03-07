@@ -1,0 +1,8 @@
+classification:
+  env: production
+staticanalysis:
+  instance: https://sonarqube-storm.l3pjg.icekube.ics.cloud
+  key: com.thehutgroup:securityhub-sonarqube-api
+  type: sonarqube
+dependencyanalysis:
+  type: snyk

@@ -1,8 +1,24 @@
 classification:
   env: production
+  data: internal
+  type: service
+ownership:
+  team: SRE
 staticanalysis:
-  instance: https://sonarqube-storm.l3pjg.icekube.ics.cloud
-  key: com.thehutgroup:securityhub-sonarqube-api
   type: sonarqube
+  exclusions:
+  - sq_integrated
+  - vulns
+  - bugs
+  - code_smells
+  - code_coverage
 dependencyanalysis:
   type: snyk
+  exclusions:
+  - snyk_integrated
+  - critical_vulns
+  - high_vulns
+  - medium_vulns
+  - low_vulns
+  - high_license
+  - medium_license

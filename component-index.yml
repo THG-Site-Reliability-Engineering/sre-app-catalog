@@ -1,5 +1,5 @@
 classification:
-  env: production
+  env: non-production
   data: internal
   type: service
 ownership:

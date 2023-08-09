@@ -3,7 +3,22 @@ entries:
   beats:
   - apiVersion: v2
     appVersion: 6.5.4
-    created: "2023-08-09T16:05:00.203252771Z"
+    created: "2023-08-09T16:37:03.551910308Z"
+    description: Unity Helm chart for beats
+    digest: 0e591d738884f90b9cf651d75010b252834745ca34b6671404348ea66cb1b59f
+    home: https://github.com/THG-Site-Reliability-Engineering/beats-chart
+    keywords:
+    - beats
+    - elasticsearch
+    name: beats
+    sources:
+    - https://github.com/THG-Site-Reliability-Engineering/beats-chart.git
+    urls:
+    - https://THG-Site-Reliability-Engineering.github.io/sre-app-catalog/beats-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
+    appVersion: 6.5.4
+    created: "2023-08-09T16:37:03.549903871Z"
     description: Unity Helm chart for beats
     digest: b54afb0bcee9d9f91fcf105db7cd41f7eadd14672d0e69cf3d8a7687d1d96195
     home: https://github.com/THG-Site-Reliability-Engineering/beats-chart
@@ -18,7 +33,7 @@ entries:
     version: 1.2.11
   - apiVersion: v2
     appVersion: 6.5.4
-    created: "2023-08-09T16:05:00.202411366Z"
+    created: "2023-08-09T16:37:03.549393862Z"
     description: Unity Helm chart for beats
     digest: 7eac0a8e357233446280d0661c7fb6d221ec5ad81b9385493cd716e7d7ba48db
     home: https://github.com/THG-Site-Reliability-Engineering/beats-chart
@@ -33,7 +48,7 @@ entries:
     version: 1.2.10
   - apiVersion: v2
     appVersion: 6.5.4
-    created: "2023-08-09T16:05:00.203947275Z"
+    created: "2023-08-09T16:37:03.551337698Z"
     description: Unity Helm chart for beats
     digest: 20118d0be0056bcb762e7bdc9526ce8fa45b5dbc0c3661dc546e6cad382edd3d
     home: https://github.com/THG-Site-Reliability-Engineering/beats-chart
@@ -48,7 +63,7 @@ entries:
     version: 1.2.9-dev.3
   - apiVersion: v2
     appVersion: 6.5.4
-    created: "2023-08-09T16:05:00.203610873Z"
+    created: "2023-08-09T16:37:03.550608884Z"
     description: Unity Helm chart for beats
     digest: c05ea1049c992b48a96b6ae4ff35d139124aab45112b1d29f06c863458b39e18
     home: https://github.com/THG-Site-Reliability-Engineering/beats-chart
@@ -64,7 +79,7 @@ entries:
   cert-monitor:
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2023-08-09T16:05:00.204288477Z"
+    created: "2023-08-09T16:37:03.552834225Z"
     description: A tool for certificates monitoring
     digest: 6ca95050720c367fa3b9abf2425dd51412d28161f1c7211700ed9094ec06498f
     home: https://github.com/THG-Site-Reliability-Engineering/cert-monitor-chart
@@ -79,7 +94,7 @@ entries:
   event-exporter:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2023-08-09T16:05:00.205054282Z"
+    created: "2023-08-09T16:37:03.553579639Z"
     description: A Helm chart for event-exporter
     digest: fdc70a694c29dd087e2555b8dcbf640b52167e0d3995ffa4adab2b89e0ba4b64
     home: https://github.com/THG-Site-Reliability-Engineering/event-exporter-app
@@ -94,7 +109,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2023-08-09T16:05:00.20466878Z"
+    created: "2023-08-09T16:37:03.553228133Z"
     description: A Helm chart for event-exporter
     digest: c30ee8f2acb88d73d80189b578230512f232dbbf669103099ac109c11c963d74
     home: https://github.com/THG-Site-Reliability-Engineering/event-exporter-app
@@ -110,7 +125,7 @@ entries:
   filebeat:
   - apiVersion: v2
     appVersion: 7.17.3
-    created: "2023-08-09T16:05:00.206217889Z"
+    created: "2023-08-09T16:37:03.554796362Z"
     description: A Helm chart for filebeat
     digest: f0298cc6114a00cf440eb6ce3c86e0438454f0f82e11902dab3e18536fbd10b5
     icon: https://helm.elastic.co/icons/beats.png
@@ -124,7 +139,7 @@ entries:
     version: 7.17.3
   - apiVersion: v2
     appVersion: 6.8.6
-    created: "2023-08-09T16:05:00.205358084Z"
+    created: "2023-08-09T16:37:03.553913545Z"
     description: A Helm chart for filebeat
     digest: d51c0b8a05872245049cd5931882e407c0c5319f090fb5d41e6bbfd4f4ff6ed3
     keywords:
@@ -136,7 +151,7 @@ entries:
   gatekeeper:
   - apiVersion: v2
     appVersion: v3.9.0
-    created: "2023-08-09T16:05:00.2079678Z"
+    created: "2023-08-09T16:37:03.556570094Z"
     description: A Helm chart for Gatekeeper
     digest: dc2aec28c2ed070a2694ab37a50f94aac20a3b72b6f06cfb70500733a7d1468e
     home: https://github.com/open-policy-agent/gatekeeper
@@ -154,7 +169,7 @@ entries:
   karma:
   - apiVersion: v2
     appVersion: v0.105
-    created: "2023-08-09T16:05:00.208739405Z"
+    created: "2023-08-09T16:37:03.557360209Z"
     description: A Helm chart for Karma - an UI for Prometheus Alertmanager
     digest: a3053ee5edd01da40d075aea1dab9caf28d3e5a1761f6979fd426f5c848c2445
     home: https://github.com/prymitive/karma
@@ -177,7 +192,7 @@ entries:
   keda:
   - apiVersion: v2
     appVersion: 2.8.1
-    created: "2023-08-09T16:05:00.213348333Z"
+    created: "2023-08-09T16:37:03.562394902Z"
     description: Event-based autoscaler for workloads on Kubernetes
     digest: b65c0a866f4ee0e1fe256806b64a7c4e52ceab1592653b12d5d594cf418791a1
     home: https://github.com/kedacore/keda
@@ -192,7 +207,7 @@ entries:
   navarch-namespace:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2023-08-09T16:05:00.213791736Z"
+    created: "2023-08-09T16:37:03.56286691Z"
     description: A Helm chart for navarch-namespace
     digest: 668e26271ea53e04e907aec0602975b3ab4b68a80d5013fd9566d037cf1a0806
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace
@@ -208,7 +223,7 @@ entries:
   unity-namespace-sync:
   - apiVersion: v2
     appVersion: v1.4.6
-    created: "2023-08-09T16:05:00.214113938Z"
+    created: "2023-08-09T16:37:03.563197216Z"
     description: A Helm chart for Unity Namespace Sync
     digest: 94cd15e3d81bde775b9c9f251e6ff45943b19d52a34ba9d48711f2742d45ae70
     home: https://github.com/THG-Site-Reliability-Engineering/navarch-namespace-app
@@ -220,4 +235,4 @@ entries:
     urls:
     - https://THG-Site-Reliability-Engineering.github.io/sre-app-catalog/unity-namespace-sync-1.4.6.tgz
     version: 1.4.6
-generated: "2023-08-09T16:05:00.200637755Z"
+generated: "2023-08-09T16:37:03.548232141Z"
